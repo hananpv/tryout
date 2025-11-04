@@ -33,7 +33,7 @@
 //   { name: "Sara", marks: 92 },
 //   { name: "John", marks: 78 }
 // ];
-// let name;
+
 // for(let x of students){
 //     console.log(x.name +'  scored  '+ x.marks);
 // }
@@ -72,10 +72,6 @@
 
 
 
-
-
-
- 
 
 
 

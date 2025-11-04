@@ -1,4 +1,4 @@
-// | Method         | Description                                              | Example (Syntax)                    |
+// | Method         | Description                                              | Example (Syntax)                   |
 // | -------------- | -------------------------------------------------------- | ----------------------------------- |
 // | **push()**     | Adds item(s) to the end of array                         | `arr.push(10);`                     |
 // | **pop()**      | Removes the last item                                    | `arr.pop();`                        |
@@ -15,8 +15,8 @@
 // | **concat()**   | Merges two arrays                                        | `arr1.concat(arr2);`                |
 // | **slice()**    | Returns a portion of array                               | `arr.slice(1, 3);`                  |
 // | **splice()**   | Adds/removes elements                                    | `arr.splice(2, 1);`                 |
-
-
+                                                                                 
+ 
 // let array=[2,3,4,1,6,7,5,];
 // array.push(8);
 // console.log(array);// add at the end

@@ -3,10 +3,10 @@
 //     callback()
 // }
 // function plus(){
-//     concsole.log("sugamano")
+//     console.log("sugamano")
 // }
 // sum("hanan",plus);
-
+           
 
 // function sum(a,b,callback){
 //     console.log(a+b)
