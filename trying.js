@@ -140,6 +140,46 @@
 //    console.log(x.price);
 // }
 
+// const array=[
+//     {name:"john",transaction:[4000,6000,-777,500,-800,1000,3500]},
+//     {name:"carl",transaction:[5000,-999,450,2000,400,7000,5000]},
+//     {name:"arun",transaction:[8000,4000,599,-344,7000,4000]}
+
+// ]
+
+// for(let x in array){
+// console.log(array[x].name)
+
+// }
+
+// for(let y in array){
+// let total=array[y].transaction.reduce((a,b)=>a+b,0);
+// console.log(total)
+// }
+
+
+
+
+
+
+// const person=[
+//     {name:"john",age:20},
+//     {name:"allen",age:18},
+//     {name:"arun",age:19},
+//     {name:"hashin",age:22}
+// ];
+
+
+
+
+
+//  function validateage(age){
+//     if(age<0){
+//         throw new Error("age cannot be negative")
+//     }
+
+//  }
+//  validateage(-33)
 
 
 
@@ -147,5 +187,48 @@
 
 
 
+// try {
+//   let a = 10;
+//   console.log(a + b); // b not defined → error
+// }
+// catch (err) {
+//   console.log("Error undu:", err.message);
+// }
+// finally {
+//   console.log("Program finished");
+// }
 
+// var a = 10;
+
+// {
+//   let a = 20; // allowed — let shadows var
+//   console.log(a); // 20
+// }
+// console.log(a); // 10
+
+
+// let name = "John";
+
+// {  
+//   var name = "Arun"; // inside block new variable
+//   console.log(name); // Arun
+// }
+// console.log(name); // John
+
+// class Person {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+
+//   greet() {
+//     console.log(`Hi, my name is ${this.name} and I am ${this.age} years old.`);
+//   }
+// }
+
+// const p1 = new Person("John", 25);
+// const p2 = new Person("Asha", 22);
+
+// p1.greet(); // Hi, my name is John and I am 25 years old.
+// p2.greet(); // Hi, my name is Asha and I am 22 years old.
 
