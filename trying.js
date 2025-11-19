@@ -232,3 +232,61 @@
 // p1.greet(); // Hi, my name is John and I am 25 years old.
 // p2.greet(); // Hi, my name is Asha and I am 22 years old.
 
+// function add(a,b){
+//    console.log("wait checking result");
+//    return a+b
+// }
+// function memoized(fn){
+//     const cache={};
+//     return function(...args){
+//         const key =JSON.stringify(args)
+//         if(key[cache]){
+//             return key[cache]
+//         }
+//         result=fn(...args)
+//         key[cache]=result;
+//         return result
+//     }
+// }
+// const total=memoized(add);
+// console.log(total(5,3))
+// console.log(total(5,3))
+// console.log(total(1,3))  
+
+
+fetch("https://jsonplaceholder.typicode.com/users")
+.then(response=>response.json())
+.then(data=>console.log(data))
+.catch(error=>console.log("error:",error));
+
+
+
+fetch("https://jsonplaceholder.typicode.com/users")
+.then(response=>response.json())
+.then(data=>{
+    console.log(data[0]);
+    console.log("name:",data[0].name);
+})
+.catch(error=>console.log("error:",error));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -56,8 +56,30 @@
 
 
 
-    //  rest parameter //
-    function sum(callback,...numbers){
-        let total=0;
-        add=numbers.reduce((a,b))
+    // //  rest parameter //
+    // function sum(callback,...numbers){
+    //     let total=0;
+    //     add=numbers.reduce((a,b))
+    // }
+
+
+
+
+
+
+
+
+
+
+    function getdata(callback) {
+        console.log("first");
+
+        setTimeout(()=>{
+            console.log("second")
+            callback("third")
+        },2000);
     }
+    function displaydata(data){
+        console.log(data);
+    }
+    getdata(displaydata);
